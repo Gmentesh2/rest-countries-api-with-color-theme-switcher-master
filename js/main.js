@@ -66,8 +66,6 @@ countryInput.addEventListener("input", () => {
 // select filtration
 
 const countrySelect = document.querySelector("#country-select")
-const allCountries = document.querySelector("#allCountriesSelect")
-const africaCountries = document.querySelector("#africaCountries")
 
 countrySelect.addEventListener(("change"), () => {
   const selectedRegion = countrySelect.value

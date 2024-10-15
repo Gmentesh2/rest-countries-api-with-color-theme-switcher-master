@@ -45,7 +45,7 @@ function renderCountries(data) {
     article.addEventListener(('click'), () => {
       //console.log("hello")
       // using query parameter "?" 
-      location.href = (`http://127.0.0.1:5500/country.html?name=${country.name.common}`)
+      location.href = (`/country.html?name=${country.name.common}`)
     })
   });
 }

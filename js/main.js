@@ -45,7 +45,7 @@ function renderCountries(data) {
     article.addEventListener(('click'), () => {
       //console.log("hello")
       // using query parameter "?" 
-      location.href = `rest-countries-api-with-color-theme-switcher-master/country.html?name=${encodeURIComponent(country.name.common)}`;
+      location.href = `country.html?name=${encodeURIComponent(country.name.common)}`;
     })
   });
 }
